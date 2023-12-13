@@ -25,6 +25,13 @@ This is also me after lunch break while I was trying to work on gradient descent
 
 
 
+#"A gradient measures how much the output of a 
+function changes if you change the inputs a little bit." — Lex Fridman (MIT)#
+
+
+
+
+
 # What Is Gradient Descent in Machine Learning?
 
 Gradient Descent is an optimization algorithm for finding a local minimum of a differentiable function. 
