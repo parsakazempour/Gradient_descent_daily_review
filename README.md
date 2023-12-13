@@ -2,7 +2,7 @@
 
 This is me before lunch break while I was listening to the lecture about Gradient descent.
 
-![Alt Text]([url](https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/0%20BA_DE2Nr3Ohi5HhI.jpg))
+![Alt Text][(https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/0%20BA_DE2Nr3Ohi5HhI.jpg)]
 
 
 
