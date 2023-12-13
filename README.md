@@ -25,7 +25,7 @@ This is also me after lunch break while I was trying to work on gradient descent
 
 
 
-# A gradient measures how much the output of a function changes if you change the inputs a little bit." — Lex Fridman (MIT)#
+# A gradient measures how much the output of a function changes if you change the inputs a little bit." — Lex Fridman (MIT)
 
 
 
