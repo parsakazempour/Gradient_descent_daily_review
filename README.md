@@ -30,9 +30,17 @@ A gradient measures how much the output of a function changes if you change the 
 
 
 
-
-
 # What Is Gradient Descent in Machine Learning?
 
 Gradient Descent is an optimization algorithm for finding a local minimum of a differentiable function. 
 Gradient descent in machine learning is simply used to find the values of a function's parameters (coefficients) that minimize a cost function as far as possible.
+
+
+# How Gradient Descent Works
+
+Gradient descent is like hiking down to the bottom of a valley because it is a minimization algorithm that minimizes a given function.
+
+The equation below describes what the gradient descent algorithm does:
+b is the next position of our climber, while a represents his current position.
+The minus sign refers to the minimization part of the gradient descent algorithm.
+The gamma in the middle is a waiting factor and the gradient term ( Δf(a) ) is simply the direction of the steepest descent.
