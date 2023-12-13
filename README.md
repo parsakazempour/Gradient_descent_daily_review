@@ -5,6 +5,11 @@ This is me before lunch break while I was listening to the lecture about Gradien
 ![Gradient](https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/0%20BA_DE2Nr3Ohi5HhI.jpg)
 
 
+This is also me after lunch break while I was trying to work on gradient descent repo!
+
+![Gradient2](https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/jumping-out-of-window.gif)
+
+
 
 
 
