@@ -101,3 +101,45 @@ for each parameter θjθj​.
 This flowchart provides a high-level overview of the gradient descent algorithm.
 Remember that the success of gradient descent depends on the appropriate choice of the learning rate and the characteristics of the cost function.
 Adjustments may be needed based on the specific requirements of your problem.
+
+
+
+
+
+
+# Types of Gradient Descent
+
+There are three popular types of gradient descent that mainly differ in the amount of data they use: 
+
+
+
+
+
+ 
+# Batch Gradient Descent
+
+Batch gradient descent, also called vanilla gradient descent, calculates the error for each example within the training dataset, but only after all training examples have been evaluated does the model get updated. This whole process is like a cycle and it’s called a training epoch.
+
+Some advantages of batch gradient descent are its computational efficiency: it produces a stable error gradient and a stable convergence. Some disadvantages are that the stable error gradient can sometimes result in a state of convergence that isn’t the best the model can achieve. It also requires the entire training dataset to be in memory and available to the algorithm.
+
+
+
+
+
+ 
+# Stochastic Gradient Descent
+
+By contrast, stochastic gradient descent (SGD) does this for each training example within the dataset, meaning it updates the parameters for each training example one by one. Depending on the problem, this can make SGD faster than batch gradient descent. One advantage is the frequent updates allow us to have a pretty detailed rate of improvement.
+
+The frequent updates, however, are more computationally expensive than the batch gradient descent approach. Additionally, the frequency of those updates can result in noisy gradients, which may cause the error rate to jump around instead of slowly decreasing.
+
+
+
+
+
+ 
+# Mini-Batch Gradient Descent
+
+Mini-batch gradient descent is the go-to method since it’s a combination of the concepts of SGD and batch gradient descent. It simply splits the training dataset into small batches and performs an update for each of those batches. This creates a balance between the robustness of stochastic gradient descent and the efficiency of batch gradient descent.
+
+Common mini-batch sizes range between 50 and 256, but like any other machine learning technique, there is no clear rule because it varies for different applications. This is the go-to algorithm when training a neural network and it is the most common type of gradient descent within deep learning.
