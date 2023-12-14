@@ -49,7 +49,7 @@ which essentially means reducing the difference between the predicted and actual
 MSE is a popular cost function for regression problems. 
 It measures the average squared difference between the predicted and actual values. The formula for MSE is:
 
-![Gradient3](https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/Untitled.png)
+![Gradient3](https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/333333333.png)
 
 Here, hθ(x(i)) is the model's prediction for the ith example, y(i) is the actual value, and m is the number of examples.
 
