@@ -145,6 +145,10 @@ Batch gradient descent, also called vanilla gradient descent, calculates the err
 
 Some advantages of batch gradient descent are its computational efficiency: it produces a stable error gradient and a stable convergence. Some disadvantages are that the stable error gradient can sometimes result in a state of convergence that isn’t the best the model can achieve. It also requires the entire training dataset to be in memory and available to the algorithm.
 
+- All instances are used to calculate the gradient (step).
+
+- The algorithm is faster than the Normal Equation but still slow.
+
 
 
 
@@ -156,7 +160,15 @@ By contrast, stochastic gradient descent (SGD) does this for each training examp
 
 The frequent updates, however, are more computationally expensive than the batch gradient descent approach. Additionally, the frequency of those updates can result in noisy gradients, which may cause the error rate to jump around instead of slowly decreasing.
 
+-Only 1 random instances is used to calculate the gradient (step).
 
+-Much faster as there is little data to process at each update.
+
+-Can be used for very large data sets → online training possible
+
+-Cost decreases only on average and bounces back and forth. → can help not getting stuck in local minima
+
+-Optimum will be close but never reached.
 
 
 
@@ -166,3 +178,9 @@ The frequent updates, however, are more computationally expensive than the batch
 Mini-batch gradient descent is the go-to method since it’s a combination of the concepts of SGD and batch gradient descent. It simply splits the training dataset into small batches and performs an update for each of those batches. This creates a balance between the robustness of stochastic gradient descent and the efficiency of batch gradient descent.
 
 Common mini-batch sizes range between 50 and 256, but like any other machine learning technique, there is no clear rule because it varies for different applications. This is the go-to algorithm when training a neural network and it is the most common type of gradient descent within deep learning.
+
+-Trains on small random subset instead of all data or individual ones.
+
+-Performs better than SGD as it exploits hardware optimization of matrix operations
+
+-Drawback: It is harder not to end up in local minima
