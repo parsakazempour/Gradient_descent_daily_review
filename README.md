@@ -102,10 +102,10 @@ The image below shows the horizontal axes representing the parameters (w and b),
         Adjust the model parameters in the opposite direction of the gradient to minimize the cost function.
         The update rule for each parameter θ is given by:
         
-       ​![Gradient4](https://github.com/parsakazempour/Gradient_descent_daily_review/commit/51d126a67159894eab02537ecf93d2949079f6fd)
+​![Gradient4](https://github.com/parsakazempour/Gradient_descent_daily_review/commit/51d126a67159894eab02537ecf93d2949079f6fd)
 
 
-        where J(θ) is the cost function.
+where J(θ) is the cost function.
 
 5-Repeat:
         Iterate steps 2-4 until the cost function converges to a minimum or a predetermined number of iterations is reached.
