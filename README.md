@@ -88,11 +88,17 @@ The image below shows the horizontal axes representing the parameters (w and b),
 
 
 
+# Learning Rate
+
+It is important to find a good value for the learning rate!
+
+Learning Rate too small → will take long to find optimum
+
+Learning Rate too large → not able to find optimum
 
 
 
-
-
+![Gradient4](https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/0124d170544a878659698996bcdd4358c0f58c1dfe98c4d00f0909462643ec3a.png)
 
 
 
