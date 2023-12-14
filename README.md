@@ -7,7 +7,7 @@ This is me before lunch break while I was listening to the lecture about Gradien
 
 
 
-This is also me after lunch break while I was trying to work on gradient descent repo!
+This is also me after lunch break while I was trying to work on gradient descent notebooks!
 
 ![Gradient2](https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/jumping-out-of-window.gif)
 
