@@ -79,7 +79,7 @@ and reach its local minimum by tweaking its parameters (w and b).
 The image below shows the horizontal axes representing the parameters (w and b), while the cost function J(w, b) is represented on the vertical axes. Gradient descent is a convex function.
 
 
-![Gradient4](https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/65464.png)
+![Gradient4](https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/gradient-descent-convex-function.png)
 
 
 
