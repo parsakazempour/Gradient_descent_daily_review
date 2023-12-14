@@ -22,11 +22,6 @@ This is also me after lunch break while I was trying to work on gradient descent
 
 
 
-
-
-
-
-
 # Definition Of Gradient
 A gradient measures how much the output of a function changes if you change the inputs a little bit." — Lex Fridman (MIT)
 
@@ -54,6 +49,18 @@ The gamma in the middle is a waiting factor and the gradient term ( Δf(a) ) is 
 
 ![Gradient3](https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/gradient-descent-equation.png)
 
+
+So this formula basically tells us the next position we need to go, which is the direction of the steepest descent. 
+
+Let’s look at another example to really drive the concept home. 
+
+Imagine you have a machine learning problem and want to train your algorithm with gradient descent to minimize your cost-function J(w, b) 
+and reach its local minimum by tweaking its parameters (w and b). 
+
+The image below shows the horizontal axes representing the parameters (w and b), while the cost function J(w, b) is represented on the vertical axes. Gradient descent is a convex function.
+
+
+![Gradient4](https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/gradient-descent-convex-function.png)
 
 
 
