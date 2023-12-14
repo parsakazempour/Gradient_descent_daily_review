@@ -52,7 +52,7 @@ The gamma in the middle is a waiting factor and the gradient term ( Δf(a) ) is 
 
 
 
-
+![Gradient3](https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/gradient-descent-equation.png)
 
 
 
