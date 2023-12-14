@@ -64,6 +64,39 @@ The image below shows the horizontal axes representing the parameters (w and b),
 
 
 
+
+# Gradient Descent summed up
+
+    1- Define model
+
+    2- Define the cost function
+
+    3- Deliberately set some starting values
+
+     4-Start descent:
+
+        - Take derivatives with respect to parameters
+
+        - Set your learning rate (step-size)
+
+        - Adjust your parameters (step)
+
+    5-Repeat 4. till there is no further improvement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Types of Gradient Descent
 
 There are three popular types of gradient descent that mainly differ in the amount of data they use: 
