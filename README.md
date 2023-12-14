@@ -30,9 +30,28 @@ A gradient measures how much the output of a function changes if you change the 
 
 # What Is Gradient Descent in Machine Learning?
 
-Gradient Descent is an optimization algorithm for finding a local minimum of a differentiable function. 
-Gradient descent in machine learning is simply used to find the values of a function's parameters (coefficients) that minimize a cost function as far as possible.
+Gradient descent is a fundamental optimization algorithm widely used in machine learning and artificial intelligence to minimize
+the cost or loss function of a model. 
+By iteratively adjusting the model's parameters in the direction of steepest descent, gradient descent helps fine-tune the model for optimal performance.
 
+
+
+# The cost function
+The cost function, also known as the loss function or objective function, is a fundamental concept in machine learning. 
+It is a mathematical measure that quantifies how well a model's predictions match the actual (ground truth) values. 
+The goal of training a machine learning model is to minimize this cost function, 
+which essentially means reducing the difference between the predicted and actual values
+
+
+
+# Mean Squared Error (MSE):
+
+MSE is a popular cost function for regression problems. 
+It measures the average squared difference between the predicted and actual values. The formula for MSE is:
+
+![Gradient3](https://github.com/parsakazempour/Gradient_descent_daily_review/blob/main/Untitled.png)
+
+Here, hθ(x(i)) is the model's prediction for the ith example, y(i) is the actual value, and m is the number of examples.
 
 
 
@@ -65,23 +84,28 @@ The image below shows the horizontal axes representing the parameters (w and b),
 
 
 
-# Gradient Descent summed up
+# Steps of Gradient Descent:
 
-1- Define model
 
-2- Define the cost function
+1-Initialization:
+        Start by initializing the model parameters randomly or with predefined values.
+        Choose a learning rate (α), a crucial hyperparameter that determines the size of the steps taken during optimization.
 
-3- Deliberately set some starting values
+2-Forward Pass:
+        Feed the input data through the model to obtain predictions.
+        Compare the predictions to the actual values using a cost or loss function.
 
-4-Start descent:
+3-Gradient Calculation:
+        Compute the partial derivative of the cost function with respect to each model parameter. This gradient represents the direction of steepest ascent.
 
-5- Take derivatives with respect to parameters
+4-Update Parameters:
+        Adjust the model parameters in the opposite direction of the gradient to minimize the cost function.
+        The update rule for each parameter θ is given by:
+        θ=θ−α⋅∂J(θ)∂θθ=θ−α⋅∂θ∂J(θ)​
+        where J(θ)J(θ) is the cost function.
 
- - Set your learning rate (step-size)
-
-- Adjust your parameters (step)
-
-5-Repeat 4. till there is no further improvement
+5-Repeat:
+        Iterate steps 2-4 until the cost function converges to a minimum or a predetermined number of iterations is reached.
 
 
 
